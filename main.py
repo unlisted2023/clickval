@@ -18,7 +18,7 @@ def c():
     global levels
     global goal
 
-    a.title("Clackeri: Level " + str(level+1))
+    a.title("Clickval: Level " + str(level+1))
     if random.randrange(1,6) == 1:
         y = random.randrange(1,7)
         if y == 1:
